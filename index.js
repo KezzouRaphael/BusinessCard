@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const chalk = require("chalk");
-const boxen = require("boxen");
+import chalk from 'chalk';
+import boxen from "boxen";
 
 // Text + chalk definitions
 const data = {
@@ -30,11 +30,9 @@ console.log(
                 EMPTYLINE,
                 `${data.labelWork} ${data.work}`,
                 EMPTYLINE,
-                `${data.labelTwitter} ${data.twitter}`,
                 `${data.labelNpm} ${data.npm}`,
                 `${data.labelGitHub} ${data.github}`,
                 `${data.labelLinkedIn} ${data.linkedin}`,
-                `${data.labelWeb} ${data.web}`,
                 EMPTYLINE,
                 `${data.labelCard} ${data.npx}`,
             ].join(NEWLINE),
