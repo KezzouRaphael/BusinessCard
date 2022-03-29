@@ -1,0 +1,20 @@
+{
+  "name": "rkcard",
+  "version": "1.0.1",
+  "description": "Business Card about me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KezzouRaphael/BusinessCard.git"
+  },
+  "author": "Kezzou Raphael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KezzouRaphael/BusinessCard/issues"
+  },
+  "homepage": "https://github.com/KezzouRaphael/BusinessCard#readme"
+}
